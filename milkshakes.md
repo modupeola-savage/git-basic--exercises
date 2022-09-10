@@ -1,1 +1,2 @@
 chocolate,vanilla
+caramel, coconut
