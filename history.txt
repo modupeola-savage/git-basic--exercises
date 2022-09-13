@@ -167,3 +167,53 @@
   167  git log
   168  git branch 
   169  history > history.txt
+  170  git add history.txt 
+  171  git commit -m "added history"
+  172  git log
+  173  git checkout milkshake-flavours 
+  174  git log
+  175  nano milkshakes.md 
+  176  git add milkshakes.md 
+  177  git commit -m "random readme changes"
+  178  git checkout history 
+  179  cat README.md 
+  180  rm README.md 
+  181  echo "booya" > README.md
+  182  git add README.md 
+  183  git commit -m "rewrote readme"
+  184  git checkout master 
+  185  ls
+  186  git log
+  187  git checkout milkshake-flavours 
+  188  ls
+  189  git log
+  190  git checkout history 
+  191  ls
+  192  git log
+  193  git checkout master 
+  194  git merge milkshake-flavours 
+  195  git status
+  196  git merge history 
+  197  git checkout history 
+  198  git merge master 
+  199  git remote add origin https://github.com/modupeola-savage/git-basic--exercises.git
+  200  git branch -M master
+  201  git push -u origin master
+  202  cd git-basic-exercise
+  203  git status
+  204  git log
+  205  CD git-basic-exercise
+  206  cd git-basic-exercise
+  207  git branch
+  208  git checkout history
+  209  git checkout history
+  210  git branch history
+  211  git checkout history 
+  212  git log
+  213  git checkout 5777196501afd5346a82b523aa51d711c64dc5ce 
+  214  git push history
+  215  git push history HEAD:remote
+  216  git checkout main 
+  217  git checkout history
+  218  git branch
+  219  history > history.txt
